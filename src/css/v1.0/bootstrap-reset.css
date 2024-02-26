@@ -1,0 +1,122 @@
+@charset "UTF-8";
+ul,ol{list-style: none;}
+a{outline: none;}
+a:focus,a:hover{text-decoration: none;outline: none;}
+.clearfix:after{content:'';display:block;clear:both;height:0;overflow:hidden;}
+.clearfix{zoom:1;}
+select{padding-right: 0;}
+/* 面板 */
+.panel {
+    border: none;
+}
+.panel-heading {
+    padding: 15px;
+    text-transform: uppercase;
+    color: #535351;
+    font-size: 14px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #49586e;
+}
+.panel-body{
+	border-top: 1px dashed rgba(0, 0, 0, 0.2);
+}
+.panel.no-header .panel-heading{
+	display: none;
+}
+.panel.no-header .panel-body{
+	border-top: none;
+}
+/* 按钮 */
+.btn-primary {
+    background-color: #424F63;
+    border-color: #374152;
+    color: #FFFFFF;
+}
+.btn-primary.disabled, .btn-primary.disabled.active, .btn-primary.disabled.focus, .btn-primary.disabled:active, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled], .btn-primary[disabled].active, .btn-primary[disabled].focus, .btn-primary[disabled]:active, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary.active, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:hover{
+	background-color: #5E6C81;
+    border-color: #414C56;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+    background-color: #374152;
+    border-color: #2e3644;
+    color: #FFFFFF;
+}
+.btn-success{
+    background-color: #65cea7;
+    border-color: #65cea7;
+}
+.btn-success.disabled, .btn-success.disabled.active, .btn-success.disabled.focus, .btn-success.disabled:active, .btn-success.disabled:focus, .btn-success.disabled:hover, .btn-success[disabled], .btn-success[disabled].active, .btn-success[disabled].focus, .btn-success[disabled]:active, .btn-success[disabled]:focus, .btn-success[disabled]:hover, fieldset[disabled] .btn-success, fieldset[disabled] .btn-success.active, fieldset[disabled] .btn-success.focus, fieldset[disabled] .btn-success:active, fieldset[disabled] .btn-success:focus, fieldset[disabled] .btn-success:hover{
+    background-color: #96EACA;
+    border-color: #70EDBE;
+}
+
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open .dropdown-toggle.btn-success {
+    background-color: #59C49D;
+    border-color: #59C49D;
+    color: #FFFFFF;
+}
+/* 表格 */
+.table tbody td, .table thead th .th-inner{
+	color: #7a7676;
+	padding: 8px!important;
+	line-height: 24px!important;
+}
+.fixed-table-container input[type=radio], .fixed-table-container input[type=checkbox]{cursor: pointer;}
+.fixed-table-pagination .pagination-detail{display: none;}
+.detail-icon i{color: #65CEA7;}
+.table tbody .detail-view > td{padding: 0!important;}
+.cust-table>thead>tr>th{border-bottom-width: 1px;}
+/* 表单 */
+.form-group label{
+	color: #7a7676;
+}
+.radios label{
+    min-height: 20px;
+    margin-bottom: 0;
+    font-weight: 400;
+    cursor: pointer;
+	position:relative;
+}
+/* modal */
+.modal-content {
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+}
+.modal-header {
+    background: #65CEA7;
+    color: #fff;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    border: none;
+}
+.modal-header .close {
+    color: #fff;
+    opacity: .5;
+}
+.modal-header .close:hover {
+    opacity: 1;
+}
+/* progress */
+.progress{
+    height: 30px;
+    background-color: #eaeaea;
+    margin-bottom: 0;
+}
+.progress-bar{
+    line-height: 30px;
+}
+.progress-bar-color1{
+    background-color: #4acbcb;
+}
+.progress-bar-color2{
+    background-color: #fb8574;
+}
+.progress-bar-color3{
+    background-color: #6a8bbf;
+}
+/* form validate */
+.has-feedback i.form-control-feedback{display: none;}

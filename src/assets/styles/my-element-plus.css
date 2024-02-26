@@ -1,0 +1,39 @@
+/* .el-button--primary:not(.is-plain) {
+    background-color: #1f4e3dc4;
+    border: #1F4E3D;
+    color: #fff;
+}
+
+.el-button--primary:not(.is-plain):hover{
+    background-color: #1f4e3d93;
+}
+
+.el-input__inner{
+    --el-select-input-focus-border-color: #007E37;
+}
+
+.el-input__inner:focus{
+    box-shadow:0 0 0 1px #007E37 inset !important;
+}
+
+.isfocus{
+    box-shadow:0 0 0 1px #007E37 inset !important;
+}
+
+.el-range-editor.is-active{
+    box-shadow:0 0 0 1px #007E37 inset !important;
+} */
+
+:root{
+    --el-color-primary:#356e59; 
+    --el-color-primary-light-1: #358668;
+    --el-color-primary-light-2: #2eb684;
+    --el-color-primary-light-3: #3dbb8d;
+    --el-color-primary-light-4: #52af8d;
+    --el-color-primary-light-5: #2ccc91;
+    --el-color-primary-light-6: #29e09d;
+    --el-color-primary-light-7: #5edfb0;
+    --el-color-primary-light-8: #9be9cc;
+    --el-color-primary-light-9: #c6ebdd;
+    --el-color-primary-dark-2: #2b7a5e;
+}
